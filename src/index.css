@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu{
+  position:absolute;
+  top:32%;
+  left:75%;
+} 
+.rad{
+  width:14rem;
+  border-radius:1.8rem;
+  border:none;
+}
+.logo-size{
+  font-size:8rem;
+}
+.leftdiv{
+  width:5rem;
+  height:5rem;
+  
+}
+.divmargin{
+  margin-left:5rem;
+}
+.parent-left{
+  position:relative;
+  left:23%;
+  
+}
+.parent-right{
+  position:relative;
+  top:5rem;
+  left:15%;
+}
+.rightdiv{
+width:2em;
+height:2em;
+}
+.box{
+  width:200px;
+  height:200px;
+}
+.box1{
+  background-color: lightcoral;
+}
+
+.box2{
+  background-color: lightgreen;
+  
+}
+.box3{
+  background-color: lightpink;
+}
+.box4{
+  background-color: rgb(141, 105, 176);
+}
+.box5{
+  background-color: lightskyblue;
+}
+.text-color-1{
+color:lightcoral;
+}
+.text-color-2{
+  color:lightgreen;
+}
+.text-color-3{
+  color:lightpink;
+}
+.text-color-4{
+  color:rgb(141,105,176);
+}
+.text-color-5{
+  color:lightskyblue;
+}
+.innerdiv{
+  padding:15% 20% 8% 20%; 
+  
+ 
+}
+ .spaced-content{
+  margin-left:200px;
+}
+@media only screen and (max-width:989px) {
+ .spaced-content{
+  margin-left: 0px;
+ }
+}
+
+.content-box{
+
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  width:fit-content;
+  
+
+  
+}
+.text-content{
+  margin-left:60px;
+}
+.imagebox1{
+  height:300px;
+  width:300px;
+  background-color: lightcoral;
+  margin-left:100px;
+}
+
+.imagebox2{
+  height:100px;
+  width:100px;
+  background-color:slateblue;
+
+}
+.showbtn {
+  position: relative;
+  left: 127px;
+  top: -41px;
+ }
+.parent{
+  display:grid;
+  grid-template-columns: auto auto;
+  
+  
+}
+.image-holder{
+ position:relative;
+ left:120px;
+}
+.newbtn{
+  width:175px;
+  height:30px;
+  border:none;
+  border-radius: 45px;
+  padding-left:15px;
+  padding-right:15px;
+}
+.icon-spacing{
+  padding-right:15px;
+}
+.text-size{
+  font-size:20px;
+
+}
